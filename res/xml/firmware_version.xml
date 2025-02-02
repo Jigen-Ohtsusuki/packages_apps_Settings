@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+        <!-- crDroid logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/tequila_logo"
+        android:key="tequila_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -76,7 +82,7 @@
         android:key="kernel_version"
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
+        settings:enableCopying="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
     <!-- Build -->
