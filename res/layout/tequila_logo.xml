@@ -9,5 +9,6 @@
         android:layout_gravity="center"
         android:src="@drawable/tequila"
         android:adjustViewBounds="true"
-        android:scaleType="centerInside" />
+        android:scaleType="centerInside" 
+        android:tint="?android:attr/colorAccent" />
 </LinearLayout>
