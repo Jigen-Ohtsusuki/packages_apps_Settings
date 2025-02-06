@@ -376,13 +376,12 @@ public class SettingsGateway {
             OneHandedSettings.class.getName(),
             MobileNetworkSettings.class.getName(),
             AppLocaleDetails.class.getName(),
-            tequilaSettings.class.getName()
+            tequilaSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
             NfcAndPaymentFragment.class.getName(),
             ColorAndMotionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
             RegionalPreferencesEntriesFragment.class.getName(),
-            crDroidSettingsLayout.class.getName(),,
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             WifiTetherClientManager.class.getName()
