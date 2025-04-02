@@ -198,7 +198,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.tequila.settings.tequilaSettings;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
-import com.crdroid.settings.crDroidSettingsLayout;
 
 public class SettingsGateway {
 
