@@ -55,7 +55,7 @@
         android:title="@string/tequila_settings_title"
         android:summary="@string/tequila_settings_summary"
         android:icon="@drawable/ic_tequila_settings"
-        android:order="-135"
+        android:order="-155"
         android:fragment="com.tequila.settings.tequilaSettings" />
 
     <com.android.settings.widget.HomepagePreference
