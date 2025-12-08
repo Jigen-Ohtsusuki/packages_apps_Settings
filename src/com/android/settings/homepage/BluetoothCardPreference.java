@@ -59,8 +59,7 @@ public class BluetoothCardPreference extends HomepagePreference {
                 // Create rounded background drawable
                 android.graphics.drawable.GradientDrawable background = 
                     new android.graphics.drawable.GradientDrawable();
-                background.setShape(android.graphics.drawable.GradientDrawable.RECTANGLE);
-                background.setCornerRadius(20f); // Rounded corners
+                background.setShape(android.graphics.drawable.GradientDrawable.OVAL);
                 
                 if (isDarkMode) {
                     // Dark mode: subtle dark background
