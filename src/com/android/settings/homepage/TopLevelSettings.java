@@ -241,7 +241,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 || key.equals("top_level_system")){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_top);
             } else if (key.equals("top_level_tequila_settings")){
-                preference.setLayoutResource(R.layout.superioros_dashboard_preference_single);
+                preference.setLayoutResource(R.layout.superioros_dashboard_preference_tequila);
             } else if (key.equals("top_level_battery")
                 || key.equals("top_level_display")
                 || key.equals("top_level_security")

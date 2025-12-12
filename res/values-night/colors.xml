@@ -77,5 +77,9 @@
 
     <!-- Superior Colors -->
     <color name="superior_pref_color">@android:color/system_neutral1_800</color>
+
+    <color name="tequila_card_gradient_start">@android:color/system_accent2_500</color>
+    <color name="tequila_card_gradient_end">@android:color/system_accent2_600</color>
+
 </resources>
 

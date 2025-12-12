@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="@dimen/superior_pref_horizontal_padding"
+    android:layout_marginEnd="@dimen/superior_pref_horizontal_padding"
+    android:clipToPadding="false"
+    android:background="@drawable/superior_preference_background_tequila">
+
+    <include
+        layout="@layout/superioros_dashboard_pref_tequila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
